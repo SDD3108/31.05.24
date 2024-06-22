@@ -1,0 +1,21 @@
+<svg width="352" height="469" viewBox="0 0 352 469" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1">
+<mask id="mask0_302_1981" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="352" height="469">
+<path d="M1.3218 1.64162H319.886C337.149 1.64162 351.144 15.6362 351.144 32.8995V467.878H67.1628C30.7998 467.878 1.3218 438.4 1.3218 402.037V1.64162Z" fill="url(#paint0_linear_302_1981)" stroke="#6246E5" stroke-width="1.33012"/>
+</mask>
+<g mask="url(#mask0_302_1981)">
+<path d="M440.686 238.162C440.686 305.601 386.016 360.271 318.576 360.271C251.137 360.271 196.467 305.601 196.467 238.162C196.467 170.722 251.137 116.052 318.576 116.052C386.016 116.052 440.686 170.722 440.686 238.162Z" stroke="#6246E5" stroke-width="1.33012"/>
+<circle cx="308.884" cy="225.238" r="136.649" stroke="#6246E5" stroke-width="1.33012"/>
+<circle cx="300.806" cy="214.738" r="149.572" stroke="#6246E5" stroke-width="1.33012"/>
+<circle cx="292.729" cy="199.39" r="160.881" stroke="#6246E5" stroke-width="1.33012"/>
+<circle cx="285.056" cy="184.447" r="171.785" stroke="#6246E5" stroke-width="1.33012"/>
+<circle cx="272.132" cy="167.485" r="188.747" stroke="#6246E5" stroke-width="1.33012"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_302_1981" x1="249.708" y1="14.0947" x2="7.61638" y2="472.221" gradientUnits="userSpaceOnUse">
+<stop stop-color="#747DEF"/>
+<stop offset="1" stop-color="#5E3BE1"/>
+</linearGradient>
+</defs>
+</svg>
