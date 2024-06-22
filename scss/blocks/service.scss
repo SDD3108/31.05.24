@@ -1,0 +1,130 @@
+.service {
+    @extend %flex-center;
+    margin: 129.02px auto 0;
+}
+.service__content {
+    // width: 1633px;
+    position: relative;
+}
+.service__content__top {
+    p {
+        text-align: center;
+        @include font-style ($main-color,23px,600,$main-font,none,none)
+    }
+    h2 {
+        padding-top: 13.22px;
+        text-align: center;
+    }
+}
+.secvice__content__bottom {
+    @extend %flex-center;
+    // justify-content: center;
+    text-align: center;
+    margin-top: 88.63px;
+}
+.block1 {
+    width: 252px;
+    height: 301px;
+    position: relative;
+    margin-top: 55.48px;
+    h3 {
+        padding-top: 38.58px;
+    }
+}
+.figure1 {
+    border-radius: 24px 7px 13px 7px;
+    width: 66px;
+    height: 65px;
+    background: $figure-color;
+    position: absolute;
+    z-index: -1;
+    top: 38.09px;
+    left: 126.2px;
+}
+.block2 {
+    border-radius: 48px;
+    width: 355px;
+    height: 417px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+    background: $white-color;
+    position: relative;
+    margin-left: 50.54px;
+    h3 {
+        padding-top: 79.81px;
+    }
+}
+.figure2 {
+    border-radius: 7px 24px 7px 13px;
+    width: 66px;
+    height: 65px;
+    background-color: $figure-color;
+    z-index: 2;
+    margin: 53.21px 128.76px 0;
+}
+
+.block3 {
+    width: 240px;
+    height: 304px;
+    position: relative;
+    margin: 55.48px 0 0 105.08px;
+    h3 {
+        padding-top: 45.22px;
+    }
+}
+.figure3 {
+    border-radius: 7px 24px 7px 13px;
+    width: 66px;
+    height: 65px;
+    background-color: $figure-color;
+    position: absolute;
+    top: 0.14px;
+    left: 110.28px;
+    z-index: -1;
+}
+.block4 {
+    width: 240px;
+    height: 287px;
+    position: relative;
+    margin: 72.78px 0 0 156.95px;
+    h3 {
+        padding-top: 39.9px;
+    }
+}
+.figure4 {
+    border-radius: 24px 7px 13px 7px;
+    width: 66px;
+    height: 65px;
+    background-color: $figure-color;
+    position: absolute;
+    top: 22.77px;
+    left: 119.3px;
+    z-index: -1;
+}
+
+.planer {
+    position: absolute;
+    left: 65.68px;
+    bottom: 216.45px;
+}
+.mini-title {
+    @include font-style ($black-color,26px,600,$preTitle-font,none,none)
+}
+.back-figure {
+    border-radius: 40px 0 13px 0;
+    width: 133px;
+    height: 133px;
+    background-color: $accent-color;
+    position: absolute;
+    top: 328.54px;
+    right: 268.68px;
+    z-index: -1;
+}
+.description {
+    padding-top: 19.95px;
+    @include font-style ($main-color,21px,500,$main-font,none,163%)
+}
+.plus1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

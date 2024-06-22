@@ -1,0 +1,26 @@
+@import './reset.scss';
+@import './vars.scss';
+@import './mixins-extends.scss';
+@import '../blocks/header.scss';
+@import '../blocks/service.scss';
+@import '../blocks/destinations.scss';
+@import '../blocks/book.scss';
+@import '../blocks/testimonials.scss';
+@import '../blocks/company.scss';
+@import '../blocks/subscribe.scss';
+@import '../blocks/footer.scss';
+
+body {
+    background-color: $white-color;
+}
+.container {
+    width: 1687px;
+    margin: 0 auto 0;
+}
+.title {
+    // padding-top: 31.83px;
+    @include font-style ($title-color,66px,700,$title-font,none,none);
+}
+.pre-title {
+    @include font-style ($main-color,23px,600,$main-font,none,none);
+}

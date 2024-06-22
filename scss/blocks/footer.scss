@@ -1,0 +1,84 @@
+.footer__content {
+    margin: 128px auto 0;
+    // width: 1410px;
+    @extend %flex-row;
+}
+.footer__logo {
+    width: 275px;
+    height: 179px;
+    p {
+        padding-top: 60.2px;
+        @include font-style ($main-color,17px,500,$main-font,none,125%)
+    }
+}
+.footer__info {
+    width: 629px;
+    @extend %flex-row;
+}
+.box-text {
+    padding-top: 44.81px;
+    ul {
+        height: 123px;
+        @extend %flex-column;
+    }
+}
+.f-title {
+    @include font-style ($total-black-color,27px,700,$main-font,none,125%);
+}
+.f-description {
+    @include font-style ($mini-color,23px,500,$main-font,none,125%)
+}
+.footer__contact {
+    @extend %flex-column;
+}
+.footer__contact__block1 {
+    width: 235px;
+    @extend %flex-row;
+    align-items: center;
+}
+.footer__contact__block2 {
+    height: 101px;
+    @extend %flex-column;
+    h3 {
+        @include font-style ($main-color,26px,500,$main-font,0.01em,125%)
+    }
+}
+.social-media {
+    width: 54.53px;
+    height: 54.53px;
+    border-radius: 100%;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.1);
+    background-color: $white-color;
+    @extend %flex-center;
+}
+.inst {
+    width: 59.86px;
+    height: 59.86px;
+    border-radius: 100%;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.1);
+    @extend %flex-center;
+    background: linear-gradient(#B8D2F1,#F289AA,#C68BF0,#D164DA,#C963E8,#BFC2E8,#FFC999,#D0D8C9,#BAD0F1,#CED8CB,#FFFFFF)
+}
+.apps {
+    width: 284px;
+    @extend %flex-row;
+}
+.button__app-gp {
+    border-radius: 23px;
+    width: 142px;
+    height: 46px;
+    background-color: $total-black-color;
+    @extend %flex-center;
+}
+.button__app-as {
+    border-radius: 23px;
+    width: 133px;
+    height: 46px;
+    background-color: $total-black-color;
+    @extend %flex-center;
+}
+.footer__after {
+    margin: 84.31px 0 104.69px 0;
+    text-align: center;
+    @include font-style ($main-color,18px,500,$main-font,none,125%)
+}

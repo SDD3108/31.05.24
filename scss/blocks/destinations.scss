@@ -1,0 +1,83 @@
+.destinations {
+    @extend %flex-center;
+}
+.destinations__content {
+    margin: 163.6px auto 0;
+    position: relative;
+    // width: 1465px;
+}
+.destinations__content__top {
+    p {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+        padding-top: 10.55px;
+    }
+}
+.destinations__content__bottom {
+    width: 1383px;
+    @extend %grid-row;
+    grid-template-columns: repeat(3,418px);
+    grid-template-rows: 607px;
+    // margin-top: 80.27px;
+    gap: 63px;
+    z-index: -1;
+    margin: 80.27px auto 0;
+}
+.destination-block {
+    height: 607px;
+    border-radius: 32px;
+    z-index: 2;
+    // background: url(../../img/destination/Rectangle\ 14.png);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+}
+.block-img1 {
+    position: absolute;
+    width: 417px;
+    height: 607px;
+    z-index: -1;
+}
+.block-img2 {
+    position: absolute;
+    width: 417px;
+    height: 607px;
+    top: 213.18;
+    z-index: -1;
+}
+.block-img3 {
+    position: absolute;
+    width: 417px;
+    height: 607px;
+    top: 213.18;
+    z-index: -1;
+}
+.info-of-travel {
+    border-radius: 0 0 32px 32px;
+    width: 418px;
+    height: 172px;
+    background-color: $white-color;
+    margin-top: 434.95px;
+}
+.locate-place {
+    @extend %flex-row;
+    width: 358.33px;
+    padding: 36.41px 0 0 26.89px;
+    p {
+        @include font-style ($main-color,23px,500,$main-font,none,125%);
+    }
+}
+.days {
+    @extend %flex-row;
+    width: 171.22px;
+    padding: 24px 0 0 26.89px;
+    p {
+        @include font-style ($main-color,21px,500,$main-font,none,125%);
+    }
+}
+.decoration {
+    position: absolute;
+    left: 1338px;
+    top: 422.98px;
+    z-index: -1;
+}

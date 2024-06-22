@@ -1,0 +1,19 @@
+.company__content {
+    // width: 1427px;
+    @extend %flex-row;
+    align-items: center;
+    margin: 230.11px auto 0;
+}
+.company__block {
+    border-radius: 13px;
+    width: 320px;
+    height: 114px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+    background: $white-color;
+    z-index: -1;
+    @extend %flex-center;
+}
+
+.grey-company {
+    mix-blend-mode: luminosity;
+}

@@ -1,0 +1,126 @@
+.header__content {
+    position: relative;
+    height: 1093px;
+}
+.header__top {
+    // width: 1539px;
+    margin-top: 62.51px;
+    @extend %flex-row;
+    @include font-style ($black-color,22px,500,$preTitle-font,none,none);
+    a {
+        @include font-style ($black-color,22px,500,$preTitle-font,none,none);
+    }
+}
+.menu {
+    width: 610.53px;
+    margin: auto;
+    ul {
+        @extend %flex-row;
+    }
+}
+.logsig-language {
+    @extend %flex-center;
+    // a {
+    //     @include font-style ($black-color,22px,500,$menu-font,none,none);
+    // }
+}
+.button {
+    width: 135px;
+    height: 53px;
+    border-radius: 6.65px;
+    border: 1.33px solid $black-color;
+    @extend %flex-center;
+    margin-left: 69.17px;
+}
+.language {
+    padding-left: 55.87px;
+}
+.header__bottom {
+    @extend %flex-center;
+    position: relative;
+    margin: 18.66px 0 0;
+    width: 1597px;
+    height: 1016px;
+}
+.header__bottom-text {
+    margin-left: 4.86px;
+    width: 837px;
+    height: 711px;
+    position: absolute;
+    top: 198.98px;
+    right: 759.14px;
+    h1 {
+        padding-top: 31.83px;
+        @include font-style ($title-color,111px,700,$title-font,-0.04em,106%)
+    }
+}
+.accent {
+    @include font-style ($accent-color,26px,700,$main-font,none,none)
+}
+.info {
+    padding-top: 41.54px;
+    @include font-style ($main-color,21px,500,$main-font,none,188%)
+}
+.header__bottom-button {
+    border-radius: 13px;
+    width: 226px;
+    height: 79px;
+    box-shadow: 0 27px 47px 0 rgba(241, 165, 1, 0.15);
+    background-color: $button-color;
+    text-align: center;
+    @include font-style ($white-color,23px,500,$preTitle-font,none,none)
+}
+.buttons {
+    width: 503px;
+    padding-top: 42.44px;
+    @extend %flex-row;
+    a {
+        @extend %flex-center;
+        padding-left: 27.93px;
+        @include font-style ($mini-color,22px,500,$main-font,none,none)
+    }
+}
+.play {
+    width: 69.17px;
+    height: 69.17px;
+    border-radius: 100px;
+    background-color: $accent-color;
+    @extend %flex-center;
+    box-shadow: 0 20px 40px 0 rgba(223, 105, 81, 0.3);
+    img {
+        width: 19.95px;
+        height: 19.95px;
+    }
+}
+.play-demo {
+    @extend %flex-line;
+}
+.decore {
+    position: absolute;
+    left: 325.74px;
+    top: 163.61px;
+    z-index: -1;
+}
+.header__bottom-img {
+    width: 1042px;
+    height: 1016px;
+    position: absolute;
+    left: 554.66px;
+    top: 0;
+}
+.plane1 {
+    position: absolute;
+    top: 74.74px;
+    left: 177.12px;
+}
+.plane2 {
+    position: absolute;
+    top: 137.25px;
+    left: 820.9px;
+}
+.decore-fone {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}

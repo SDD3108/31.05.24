@@ -1,0 +1,190 @@
+.book {
+    @extend %flex-center;
+}
+.book__content {
+    // width: 1481px;
+    margin: 247.04px auto 0;
+    @extend %flex-row;
+}
+.book__content__left {
+    width: 680px;
+}
+.book__left-title {
+    h2 {
+        padding-top: 19.87px;
+    }
+}
+.book__left-info {
+    width: 525px;
+    height: 383px;
+    @extend %flex-column;
+    margin-top: 42.15px;
+}
+.book__information {
+    width: 525px;
+    @extend %flex-row;
+}
+.square {
+    border-radius: 17px;
+    width: 62px;
+    height: 63px;
+    @extend %flex-center;
+}
+.square-color1 {
+    background-color: $destinations-color;
+}
+.text {
+    @extend %flex-column;
+    h3 {
+        @include font-style ($main-color,21px,700,$main-font,none,125%);
+    }
+    p {
+        padding-top: 5.92px;
+        @include font-style ($main-color,21px,400,$main-font,none,125%);
+    }
+}
+.square-color2 {
+    background-color: $payment-color;
+}
+.square-color3 {
+    background-color: $reach-color;
+}
+.book__content__right {
+    width: 645px;
+    height: 610px;
+    position: relative;
+}
+.greece {
+    border-radius: 35px;
+    width: 492px;
+    height: 532px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+    background: $white-color;
+    margin-top: 78.47px;
+    position: relative;
+    h3 {
+        margin: 34.58px 0 0 33.25px;
+        @include font-style ($total-black-color,23px,500,$main-font,0.01em,125%)
+    }
+    p {
+        @include font-style ($trip-color,21px,500,$main-font,-0.02em,125%)
+    }
+}
+.heart-like {
+    position: absolute;
+    right: 33.25px;
+    bottom: 42.17px;
+}
+.greece-img {
+    margin: 26.6px 0 0 33.25px;
+}
+.date-of-cruice {
+    @extend %flex-line;
+    gap: 11px;
+    margin: 17.02px 0 0 33.25px;
+    p {
+        @include font-style ($trip-color,21px,500,$main-font,-0.01em,125%)
+    }
+}
+.wall {
+    @extend %flex-center;
+    border: 1.33px solid $trip-color;
+    width: 21px;
+    height: 0px;
+    background-color: $trip-color;
+    transform: rotate(-90deg);
+}
+.greece-circles {
+    width: 184px;
+    @extend %flex-row;
+    margin: 28.07px 0 0 33.25px;
+}
+.greece-circle {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    @extend %flex-center;
+    background-color: $circle-color;
+}
+.people-going {
+    width: 210px;
+    @extend %flex-row;
+    margin: 38.58px 0 0 33.25px;
+    img {
+        margin-bottom: 6.05px;
+    }
+}
+.rome {
+    border-radius: 24px;
+    width: 349px;
+    height: 171px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+    background: $white-color;
+    @extend %flex-line;
+    position: absolute;
+    right: 0;
+    bottom: 69.17px;
+    z-index: 4;
+    p {
+        @include font-style ($trip-color,18px,500,$main-font,-0.04em,125%)
+    }
+    h3 {
+        padding-top: 7.59px;
+        @include font-style ($total-black-color,23px,500,$main-font,-0.01em,125%)
+    }
+    img {
+        width: 66px;
+        height: 66px;
+        margin: 23.94px 0 0 26.6px;
+    }
+}
+.rome__text {
+    margin: 21.28px 0 0 15.96px;
+}
+.rome-loading {
+    padding-top: 17.88px;
+    a {
+        color: $percent-color;
+    }
+    p {
+        @include font-style ($total-black-color,18px,500,$main-font,-0.06em,125%)
+    }
+}
+.loading {
+    border-radius: 40px;
+    width: 97px;
+    height: 6px;
+    background-color: $percent-color;
+    position: absolute;
+    z-index: 4;
+    animation: loading 2s infinite ease-in-out;
+    margin-top: 12.91px;
+}
+.loading-back {
+    border-radius: 40px;
+    width: 207px;
+    height: 6px;
+    background-color: $circle-color;
+    position: relative;
+    z-index: 2;
+    margin-top: 12.91px;
+}
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 97px;
+    }
+}
+.blur {
+    width: 470.86px;
+    height: 488.15px;
+    background-color: $blur-color;
+    filter: blur(199.52px);
+    border-radius: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 79.81px;
+}

@@ -1,0 +1,89 @@
+.testimonials__content {
+    // width: 1550px;
+    margin: 267.23px auto 0;
+    @extend %flex-row;
+}
+.testimonials__left {
+    width: 544px;
+    h2 {
+        padding-top: 10.55px;
+    }
+}
+.points {
+    width: 116px;
+    @extend %flex-row;
+    padding-top: 110.16px;
+}
+.point {
+    width: 15.96px;
+    height: 15.96px;
+    border-radius: 100%;
+}
+.b-point {
+    background-color: $point-color;
+}
+.g-point {
+    background-color: $bg-color;
+}
+.testimonials__right {
+    width: 890px;
+    position: relative;
+    @extend %flex-line;
+}
+.testimonials__right__block1 {
+    border-radius: 13px;
+    width: 670px;
+    height: 325px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+    background: $white-color;
+    margin: 45.22px 0 0 49.21px;
+}
+.right__block-text {
+    padding: 37.24px 0 0 45.22px;
+    @include font-style ($main-color,21px,500,$main-font,none,200%)
+}
+.testimonials__right__block2 {
+    border: 2.66px solid $box-line-color;
+    border-radius: 13px;
+    width: 667px;
+    height: 308px;
+    // margin: 164.94px 0 0 115.72px;
+    position: absolute;
+    top: 164.94px;
+    left: 115.72px;
+    z-index: -1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0), 0 11px 9px 0 rgba(0, 0, 0, 0.01), 0 27px 17px 0 rgba(0, 0, 0, 0.01), 0 51px 34px 0 rgba(0, 0, 0, 0.01), 0 86px 62px 0 rgba(0, 0, 0, 0.02), 0 133px 106px 0 rgba(0, 0, 0, 0.02);
+}
+.text-column {
+    height: 70px;
+    @extend %flex-column;
+    padding: 0 0 0 45.22px;
+    h3 {
+        @include font-style ($main-color,23px,600,$main-font,none,none)
+    }
+    p {
+        @include font-style ($main-color,18px,500,$main-font,none,none)
+    }
+}
+.text-column2 {
+    height: 70px;
+    @extend %flex-column;
+    padding: 207.5px 0 0 45.22px;
+    h3 {
+        @include font-style ($main-color,23px,600,$main-font,none,none)
+    }
+    p {
+        @include font-style ($main-color,18px,500,$main-font,none,none)
+    }
+}
+.round-guy {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.scroll {
+    width: 19px;
+    height: 95px;
+    @extend %flex-column;
+    margin: 186.88px 0 0 151.63px;
+}
